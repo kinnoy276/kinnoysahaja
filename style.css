@@ -1,0 +1,143 @@
+/* Reset CSS Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Utilitas */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.dark {
+    background: #2c3e50; /* Warna latar belakang gelap */
+    color: #ecf0f1; /* Warna teks terang */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.2em;
+}
+
+/* Header dan Navigasi */
+header {
+    background: #3498db; /* Warna utama/biru */
+    color: white;
+    padding: 15px 0;
+    border-bottom: 3px solid #2980b9;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* Bagian Hero */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover; /* Ganti dengan gambar latar Anda */
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+    background-color: #34495e; /* Warna cadangan */
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Membuat foto menjadi bulat */
+    border: 5px solid white;
+    margin-bottom: 15px;
+    object-fit: cover; /* Memastikan gambar terisi penuh */
+}
+
+.hero-content h2 {
+    margin: 10px 0;
+    font-size: 3em;
+}
+
+.btn {
+    display: inline-block;
+    background: #e67e22; /* Warna tombol */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #d35400;
+}
+
+/* Bagian Proyek */
+.project-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.project-card {
+    background: #34495e;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+.project-card a {
+    color: #f1c40f; /* Warna link di bagian gelap */
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
